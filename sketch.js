@@ -41,8 +41,8 @@ function setup() {
 function draw() {
   rectMode(CENTER);
   background(230);
+  fill("blue")
   textSize(20);
-  fill("black")
   text("PRESS UP ARROW",365,30);
   roofObject.display();
 
